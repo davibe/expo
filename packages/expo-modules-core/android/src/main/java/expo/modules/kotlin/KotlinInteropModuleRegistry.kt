@@ -2,7 +2,6 @@ package expo.modules.kotlin
 
 import com.facebook.react.bridge.ReadableArray
 import com.facebook.react.uimanager.ViewManager
-import expo.modules.core.Promise
 import expo.modules.kotlin.views.GroupViewManagerWrapper
 import expo.modules.kotlin.views.SimpleViewManagerWrapper
 import expo.modules.kotlin.views.ViewManagerWrapperDelegate

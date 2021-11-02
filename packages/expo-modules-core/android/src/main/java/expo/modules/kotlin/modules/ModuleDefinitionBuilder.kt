@@ -13,7 +13,7 @@
 
 package expo.modules.kotlin.modules
 
-import expo.modules.core.Promise
+import expo.modules.kotlin.Promise
 import expo.modules.kotlin.methods.AnyMethod
 import expo.modules.kotlin.methods.Method
 import expo.modules.kotlin.methods.PromiseMethod
