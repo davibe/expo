@@ -167,17 +167,6 @@
     <!-- END_SDK_37 -->
     <!-- WHEN_PREPARING_SHELL_REMOVE_TO_HERE -->
 
-    <activity
-        android:name="net.openid.appauth.RedirectUriReceiverActivity"
-        tools:node="replace">
-      <intent-filter>
-        <action android:name="android.intent.action.VIEW"/>
-        <category android:name="android.intent.category.DEFAULT"/>
-        <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="host.exp.exponent" android:path="oauthredirect"/>
-      </intent-filter>
-    </activity>
-
     <!-- START OF STRIPE SCHEMES -->
     <activity
         android:exported="true"
